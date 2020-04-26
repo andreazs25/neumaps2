@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tuquesa"
+    tools:context=".Formulario">
+
+    <EditText
+        android:id="@+id/estudios"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="641dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estudios" />
+
+    <EditText
+        android:id="@+id/OrigenP"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="572dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Origen y procedencia" />
+
+    <EditText
+        android:id="@+id/Ocupcion"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="508dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ocupación" />
+
+    <EditText
+        android:id="@+id/Estadoc"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="443dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estado Civil" />
+
+    <EditText
+        android:id="@+id/h"
+        android:layout_width="218dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="379dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hijos" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="317dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <RadioButton
+        android:id="@+id/nd"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="241dp"
+        android:text="Nacido dentro de un matrimonio" />
+
+    <RadioButton
+        android:id="@+id/divorcio"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="651dp"
+        android:text="Padres divorciados" />
+
+    <RadioButton
+        android:id="@+id/Tratomc"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="251dp"
+        android:text="Trato materno cercano" />
+
+    <RadioButton
+        android:id="@+id/fmono"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="574dp"
+        android:text="Familia monoprental" />
+
+    <RadioButton
+        android:id="@+id/nf"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="251dp"
+        android:text="Nacido fuera de un matrimonio" />
+
+    <RadioButton
+        android:id="@+id/numerosa"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="503dp"
+        android:text="Familia numerosa" />
+
+    <RadioButton
+        android:id="@+id/Tratoml"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="175dp"
+        android:text="Trato materno lejano" />
+
+    <RadioButton
+        android:id="@+id/adoptiva"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="0dp"
+        android:text="Familia adoptiva" />
+
+    <RadioButton
+        android:id="@+id/noTrato"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="124dp"
+        android:text="Ningun trato de progenitores" />
+
+    <RadioButton
+        android:id="@+id/Tratopc"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="370dp"
+        android:text="Trato paterno cercano" />
+
+    <RadioButton
+        android:id="@+id/Tratopl"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="314dp"
+        android:text="Trto paterno lejano" />
+
+</RelativeLayout>
